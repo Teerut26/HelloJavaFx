@@ -13,10 +13,9 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() {
         try {
-            FXRouter.goTo("student-profile");
+            FXRouter.goTo("student-list");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        welcomeText.setText("Welcome to JavaFX Application!");
     }
 }
