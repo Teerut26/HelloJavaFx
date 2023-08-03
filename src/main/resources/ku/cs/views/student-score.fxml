@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.StudentScoreController">
+   <children>
+      <Button layoutX="19.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleBackToStudentsTableButton" text="Back To Student Table" />
+      <Label layoutX="27.0" layoutY="68.0" text="Student Name" />
+      <Label layoutX="27.0" layoutY="90.0" text="Student ID" />
+      <Label layoutX="28.0" layoutY="111.0" text="Score" />
+      <Label fx:id="nameLabel" layoutX="125.0" layoutY="68.0" text="nameLabel" />
+      <Label fx:id="idLabel" layoutX="126.0" layoutY="90.0" text="idLabel" />
+      <Label fx:id="scoreLabel" layoutX="126.0" layoutY="111.0" text="scoreLabel" />
+      <Label layoutX="29.0" layoutY="166.0" text="Give Score" />
+      <TextField fx:id="scoreTextField" layoutX="104.0" layoutY="162.0" promptText="1" />
+      <Button layoutX="273.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleGiveScoreButton" text="Give" />
+      <Label fx:id="errorLabel" layoutX="106.0" layoutY="190.0" text="errorLabel" textFill="RED" />
+   </children>
+</AnchorPane>

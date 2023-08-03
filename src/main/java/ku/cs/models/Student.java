@@ -8,7 +8,13 @@ public class Student {
     public Student(String id, String name) {
         this.id = id;
         this.name = name;
-        score = 0;
+        this.score = 0;
+    }
+
+    public Student(String id, String name, double score) {
+        this.id = id;
+        this.name = name;
+        this.score = score;
     }
 
     public void changeName(String name) {
